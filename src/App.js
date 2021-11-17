@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import ProfileName from './Component/Profile/ProfileName';
+import ProfileAdress from './Component/Profile/ProfileAdress';
+import ProfilePhoto from './Component/Profile/ProfilePhoto';
 
 function App() {
   return (
@@ -15,8 +18,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         
+          <ProfilePhoto/>
+         <ProfileName/>
         </a>
+        <ProfileAdress/>
       </header>
     </div>
   );
